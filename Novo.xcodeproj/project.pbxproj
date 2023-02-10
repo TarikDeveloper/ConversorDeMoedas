@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B7113292997088300957DEA /* NovoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7113282997088300957DEA /* NovoApp.swift */; };
+		2B71132B2997088300957DEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B71132A2997088300957DEA /* ContentView.swift */; };
+		2B71132D2997088500957DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B71132C2997088500957DEA /* Assets.xcassets */; };
+		2B7113302997088500957DEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B71132F2997088500957DEA /* Preview Assets.xcassets */; };
+		2B71133A2997088500957DEA /* NovoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7113392997088500957DEA /* NovoTests.swift */; };
+		2B7113442997088500957DEA /* NovoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7113432997088500957DEA /* NovoUITests.swift */; };
+		2B7113462997088500957DEA /* NovoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7113452997088500957DEA /* NovoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B7113362997088500957DEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B71131D2997088300957DEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B7113242997088300957DEA;
+			remoteInfo = Novo;
+		};
+		2B7113402997088500957DEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B71131D2997088300957DEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B7113242997088300957DEA;
+			remoteInfo = Novo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B7113252997088300957DEA /* Novo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Novo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7113282997088300957DEA /* NovoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoApp.swift; sourceTree = "<group>"; };
+		2B71132A2997088300957DEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B71132C2997088500957DEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B71132F2997088500957DEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B7113352997088500957DEA /* NovoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7113392997088500957DEA /* NovoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoTests.swift; sourceTree = "<group>"; };
+		2B71133F2997088500957DEA /* NovoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B7113432997088500957DEA /* NovoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoUITests.swift; sourceTree = "<group>"; };
+		2B7113452997088500957DEA /* NovoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B7113222997088300957DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7113322997088500957DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B71133C2997088500957DEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B71131C2997088300957DEA = {
+			isa = PBXGroup;
+			children = (
+				2B7113272997088300957DEA /* Novo */,
+				2B7113382997088500957DEA /* NovoTests */,
+				2B7113422997088500957DEA /* NovoUITests */,
+				2B7113262997088300957DEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B7113262997088300957DEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B7113252997088300957DEA /* Novo.app */,
+				2B7113352997088500957DEA /* NovoTests.xctest */,
+				2B71133F2997088500957DEA /* NovoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B7113272997088300957DEA /* Novo */ = {
+			isa = PBXGroup;
+			children = (
+				2B7113282997088300957DEA /* NovoApp.swift */,
+				2B71132A2997088300957DEA /* ContentView.swift */,
+				2B71132C2997088500957DEA /* Assets.xcassets */,
+				2B71132E2997088500957DEA /* Preview Content */,
+			);
+			path = Novo;
+			sourceTree = "<group>";
+		};
+		2B71132E2997088500957DEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B71132F2997088500957DEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B7113382997088500957DEA /* NovoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B7113392997088500957DEA /* NovoTests.swift */,
+			);
+			path = NovoTests;
+			sourceTree = "<group>";
+		};
+		2B7113422997088500957DEA /* NovoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B7113432997088500957DEA /* NovoUITests.swift */,
+				2B7113452997088500957DEA /* NovoUITestsLaunchTests.swift */,
+			);
+			path = NovoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B7113242997088300957DEA /* Novo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7113492997088500957DEA /* Build configuration list for PBXNativeTarget "Novo" */;
+			buildPhases = (
+				2B7113212997088300957DEA /* Sources */,
+				2B7113222997088300957DEA /* Frameworks */,
+				2B7113232997088300957DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Novo;
+			productName = Novo;
+			productReference = 2B7113252997088300957DEA /* Novo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B7113342997088500957DEA /* NovoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B71134C2997088500957DEA /* Build configuration list for PBXNativeTarget "NovoTests" */;
+			buildPhases = (
+				2B7113312997088500957DEA /* Sources */,
+				2B7113322997088500957DEA /* Frameworks */,
+				2B7113332997088500957DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B7113372997088500957DEA /* PBXTargetDependency */,
+			);
+			name = NovoTests;
+			productName = NovoTests;
+			productReference = 2B7113352997088500957DEA /* NovoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B71133E2997088500957DEA /* NovoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B71134F2997088500957DEA /* Build configuration list for PBXNativeTarget "NovoUITests" */;
+			buildPhases = (
+				2B71133B2997088500957DEA /* Sources */,
+				2B71133C2997088500957DEA /* Frameworks */,
+				2B71133D2997088500957DEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B7113412997088500957DEA /* PBXTargetDependency */,
+			);
+			name = NovoUITests;
+			productName = NovoUITests;
+			productReference = 2B71133F2997088500957DEA /* NovoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B71131D2997088300957DEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2B7113242997088300957DEA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					2B7113342997088500957DEA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 2B7113242997088300957DEA;
+					};
+					2B71133E2997088500957DEA = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 2B7113242997088300957DEA;
+					};
+				};
+			};
+			buildConfigurationList = 2B7113202997088300957DEA /* Build configuration list for PBXProject "Novo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B71131C2997088300957DEA;
+			productRefGroup = 2B7113262997088300957DEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B7113242997088300957DEA /* Novo */,
+				2B7113342997088500957DEA /* NovoTests */,
+				2B71133E2997088500957DEA /* NovoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B7113232997088300957DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7113302997088500957DEA /* Preview Assets.xcassets in Resources */,
+				2B71132D2997088500957DEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7113332997088500957DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B71133D2997088500957DEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B7113212997088300957DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B71132B2997088300957DEA /* ContentView.swift in Sources */,
+				2B7113292997088300957DEA /* NovoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7113312997088500957DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B71133A2997088500957DEA /* NovoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B71133B2997088500957DEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B7113462997088500957DEA /* NovoUITestsLaunchTests.swift in Sources */,
+				2B7113442997088500957DEA /* NovoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B7113372997088500957DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B7113242997088300957DEA /* Novo */;
+			targetProxy = 2B7113362997088500957DEA /* PBXContainerItemProxy */;
+		};
+		2B7113412997088500957DEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B7113242997088300957DEA /* Novo */;
+			targetProxy = 2B7113402997088500957DEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B7113472997088500957DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B7113482997088500957DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B71134A2997088500957DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Novo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarikvillalobos.Novo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B71134B2997088500957DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Novo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarikvillalobos.Novo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B71134D2997088500957DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarikvillalobos.NovoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Novo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Novo";
+			};
+			name = Debug;
+		};
+		2B71134E2997088500957DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarikvillalobos.NovoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Novo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Novo";
+			};
+			name = Release;
+		};
+		2B7113502997088500957DEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarikvillalobos.NovoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Novo;
+			};
+			name = Debug;
+		};
+		2B7113512997088500957DEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tarikvillalobos.NovoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Novo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B7113202997088300957DEA /* Build configuration list for PBXProject "Novo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7113472997088500957DEA /* Debug */,
+				2B7113482997088500957DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B7113492997088500957DEA /* Build configuration list for PBXNativeTarget "Novo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B71134A2997088500957DEA /* Debug */,
+				2B71134B2997088500957DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B71134C2997088500957DEA /* Build configuration list for PBXNativeTarget "NovoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B71134D2997088500957DEA /* Debug */,
+				2B71134E2997088500957DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B71134F2997088500957DEA /* Build configuration list for PBXNativeTarget "NovoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B7113502997088500957DEA /* Debug */,
+				2B7113512997088500957DEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B71131D2997088300957DEA /* Project object */;
+}
