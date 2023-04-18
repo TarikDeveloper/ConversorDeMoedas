@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B617EC22997F2BE000984CA /* ConversosDeMoeda.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B617EC12997F2BE000984CA /* ConversosDeMoeda.swift */; };
+		2B617EC4299943D4000984CA /* ListaDeTarefas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B617EC3299943D4000984CA /* ListaDeTarefas.swift */; };
+		2B617EC8299945E7000984CA /* Calculadora.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B617EC7299945E7000984CA /* Calculadora.swift */; };
 		2B7113292997088300957DEA /* NovoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7113282997088300957DEA /* NovoApp.swift */; };
 		2B71132B2997088300957DEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B71132A2997088300957DEA /* ContentView.swift */; };
 		2B71132D2997088500957DEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B71132C2997088500957DEA /* Assets.xcassets */; };
@@ -14,6 +17,7 @@
 		2B71133A2997088500957DEA /* NovoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7113392997088500957DEA /* NovoTests.swift */; };
 		2B7113442997088500957DEA /* NovoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7113432997088500957DEA /* NovoUITests.swift */; };
 		2B7113462997088500957DEA /* NovoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7113452997088500957DEA /* NovoUITestsLaunchTests.swift */; };
+		2B757F8A29E5DAC000CB6153 /* CartaoRocha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B757F8929E5DAC000CB6153 /* CartaoRocha.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B617EC12997F2BE000984CA /* ConversosDeMoeda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversosDeMoeda.swift; sourceTree = "<group>"; };
+		2B617EC3299943D4000984CA /* ListaDeTarefas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeTarefas.swift; sourceTree = "<group>"; };
+		2B617EC7299945E7000984CA /* Calculadora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculadora.swift; sourceTree = "<group>"; };
 		2B7113252997088300957DEA /* Novo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Novo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7113282997088300957DEA /* NovoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoApp.swift; sourceTree = "<group>"; };
 		2B71132A2997088300957DEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +51,7 @@
 		2B71133F2997088500957DEA /* NovoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7113432997088500957DEA /* NovoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoUITests.swift; sourceTree = "<group>"; };
 		2B7113452997088500957DEA /* NovoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B757F8929E5DAC000CB6153 /* CartaoRocha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartaoRocha.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B617EC5299944A6000984CA /* AppPortifolio */ = {
+			isa = PBXGroup;
+			children = (
+				2B617EC3299943D4000984CA /* ListaDeTarefas.swift */,
+				2B617EC12997F2BE000984CA /* ConversosDeMoeda.swift */,
+			);
+			path = AppPortifolio;
+			sourceTree = "<group>";
+		};
+		2B617EC6299945A9000984CA /* Em Andamento */ = {
+			isa = PBXGroup;
+			children = (
+				2B617EC7299945E7000984CA /* Calculadora.swift */,
+			);
+			path = "Em Andamento";
+			sourceTree = "<group>";
+		};
 		2B71131C2997088300957DEA = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +119,8 @@
 		2B7113272997088300957DEA /* Novo */ = {
 			isa = PBXGroup;
 			children = (
-				2B7113282997088300957DEA /* NovoApp.swift */,
-				2B71132A2997088300957DEA /* ContentView.swift */,
+				2B757F8729E5DA7600CB6153 /* Teste1 */,
+				2B757F8829E5DA9A00CB6153 /* Teste2 */,
 				2B71132C2997088500957DEA /* Assets.xcassets */,
 				2B71132E2997088500957DEA /* Preview Content */,
 			);
@@ -125,6 +150,25 @@
 				2B7113452997088500957DEA /* NovoUITestsLaunchTests.swift */,
 			);
 			path = NovoUITests;
+			sourceTree = "<group>";
+		};
+		2B757F8729E5DA7600CB6153 /* Teste1 */ = {
+			isa = PBXGroup;
+			children = (
+				2B71132A2997088300957DEA /* ContentView.swift */,
+				2B7113282997088300957DEA /* NovoApp.swift */,
+				2B617EC5299944A6000984CA /* AppPortifolio */,
+				2B617EC6299945A9000984CA /* Em Andamento */,
+			);
+			path = Teste1;
+			sourceTree = "<group>";
+		};
+		2B757F8829E5DA9A00CB6153 /* Teste2 */ = {
+			isa = PBXGroup;
+			children = (
+				2B757F8929E5DAC000CB6153 /* CartaoRocha.swift */,
+			);
+			path = Teste2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B617EC22997F2BE000984CA /* ConversosDeMoeda.swift in Sources */,
+				2B617EC8299945E7000984CA /* Calculadora.swift in Sources */,
 				2B71132B2997088300957DEA /* ContentView.swift in Sources */,
+				2B757F8A29E5DAC000CB6153 /* CartaoRocha.swift in Sources */,
 				2B7113292997088300957DEA /* NovoApp.swift in Sources */,
+				2B617EC4299943D4000984CA /* ListaDeTarefas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import SwiftUI
 struct NovoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListaDeTarefas()
         }
     }
 }
